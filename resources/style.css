@@ -3,13 +3,25 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.logo, nav {
+  display: flex;
 }
 
 h3 {
-  display: flex;
   color: mediumaquamarine;
+  padding: 10px;
 }
 
-nav, .logo {
-  display: flex;
+.logo {
+  padding-left: 30px;
+  flex-grow: 1;
+  align-items: center;
+}
+
+nav {
+  align-items: center;
 }
